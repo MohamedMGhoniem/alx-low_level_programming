@@ -14,12 +14,12 @@ int main(void)
 		{
 			if (m > n)
 			{
-				putcar(n);
-				putcar(m);
+				putchar(n);
+				putchar(m);
 				if (n != 56 || m != 57)
 				{
-					putcahr(',');
-					putcahr(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
